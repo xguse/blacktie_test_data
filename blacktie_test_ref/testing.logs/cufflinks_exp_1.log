@@ -1,0 +1,41 @@
+
+cufflinks --GTF fake_annotation.gtf --frag-bias-correct fake_genome.fasta -o /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cufflinks_exp_1 -p 2 --upper-quartile-norm --multi-read-correct /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_1/accepted_hits.bam
+
+Warning: Your version of Cufflinks is not up-to-date. It is recommended that you upgrade to Cufflinks v2.1.1 to benefit from the most recent features and bug fixes (http://cufflinks.cbcb.umd.edu).
+[10:47:25] Loading reference annotation and sequence.
+[10:47:25] Inspecting reads and determining fragment length distribution.
+Warning: Using default Gaussian distribution due to insufficient paired-end reads in open ranges.  It is recommended that correct parameters (--frag-len-mean and --frag-len-std-dev) be provided.
+> Map Properties:
+>	Upper Quartile: 456.00
+>	Normalized Map Mass: 456.00
+>	Raw Map Mass: 600.00
+>	Number of Multi-Reads: 0 (with 0 total hits)
+>	Fragment Length Distribution: Truncated Gaussian (default)
+>	              Default Mean: 200
+>	           Default Std Dev: 80
+[10:47:25] Learning bias parameters.
+[10:47:26] Re-estimating abundances with bias and multi-read correction.
+
+[end cufflinks_exp_1]
+
+[start cufflinks_exp_1]
+
+
+cufflinks --GTF fake_annotation.gtf --frag-bias-correct fake_genome.fasta -o /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cufflinks_exp_1 -p 2 --upper-quartile-norm --multi-read-correct /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_1/accepted_hits.bam
+
+Warning: Your version of Cufflinks is not up-to-date. It is recommended that you upgrade to Cufflinks v2.1.1 to benefit from the most recent features and bug fixes (http://cufflinks.cbcb.umd.edu).
+[10:47:26] Loading reference annotation and sequence.
+[10:47:26] Inspecting reads and determining fragment length distribution.
+Warning: Using default Gaussian distribution due to insufficient paired-end reads in open ranges.  It is recommended that correct parameters (--frag-len-mean and --frag-len-std-dev) be provided.
+> Map Properties:
+>	Upper Quartile: 456.00
+>	Normalized Map Mass: 456.00
+>	Raw Map Mass: 600.00
+>	Number of Multi-Reads: 0 (with 0 total hits)
+>	Fragment Length Distribution: Truncated Gaussian (default)
+>	              Default Mean: 200
+>	           Default Std Dev: 80
+[10:47:26] Learning bias parameters.
+[10:47:26] Re-estimating abundances with bias and multi-read correction.
+
+[end cufflinks_exp_1]

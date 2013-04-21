@@ -1,0 +1,5 @@
+param	value
+cmd_line	cuffdiff --frag-bias-correct fake_genome.fasta --labels ctrl,exp -o /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffdiff_ctrl_0.ctrl_1.exp_0.exp_1 -p 6 --upper-quartile-norm --multi-read-correct /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1/merged.gtf /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_ctrl_0/accepted_hits.bam,/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_ctrl_1/accepted_hits.bam /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_0/accepted_hits.bam,/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_1/accepted_hits.bam 
+version	2.0.2
+SVN_revision	3522
+boost_version	104900

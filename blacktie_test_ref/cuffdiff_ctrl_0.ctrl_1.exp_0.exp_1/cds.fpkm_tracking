@@ -1,0 +1,2 @@
+tracking_id	class_code	nearest_ref_id	gene_id	gene_short_name	tss_id	locus	length	coverage	ctrl_FPKM	ctrl_conf_lo	ctrl_conf_hi	ctrl_status	exp_FPKM	exp_conf_lo	exp_conf_hi	exp_status
+P1	-	-	XLOC_000001	FAKE000001	TSS1	fake_chrom_1:223-729	-	-	1.86388e+06	1.6318e+06	2.09596e+06	OK	2.01806e+06	1.77555e+06	2.26056e+06	OK

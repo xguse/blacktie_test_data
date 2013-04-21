@@ -1,0 +1,7 @@
+fake_chrom_1	Faker	gene	224	729	0	+	0	gene_id "FAKE000001";
+fake_chrom_1	Faker	mRNA	224	729	0	+	0	gene_id "FAKE000001"; transcript_id "FAKE000001-RA";
+fake_chrom_1	Faker	exon	224	729	0	+	0	gene_id "FAKE000001"; transcript_id "FAKE000001-RA"; exon_number "1 of 1";
+fake_chrom_1	Faker	five_prime_utr	224	316	0	+	0	transcript_id "FAKE000001-RA";
+fake_chrom_1	Faker	start_codon	317	319	0	+	0	gene_id "FAKE000001"; transcript_id "FAKE000001-RA";
+fake_chrom_1	Faker	CDS	317	655	0	+	0	gene_id "FAKE000001"; transcript_id "FAKE000001-RA"; exon_number "1 of 1";
+fake_chrom_1	Faker	three_prime_utr	656	729	0	+	0	transcript_id "FAKE000001-RA";

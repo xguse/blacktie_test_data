@@ -1,0 +1,4 @@
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cufflinks_ctrl_0/transcripts.gtf
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cufflinks_ctrl_1/transcripts.gtf
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cufflinks_exp_0/transcripts.gtf
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cufflinks_exp_1/transcripts.gtf

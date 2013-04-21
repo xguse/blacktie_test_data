@@ -1,0 +1,1 @@
+fake_chrom_1	Cufflinks	exon	224	729	.	+	.	gene_id "XLOC_000001"; transcript_id "TCONS_00000001"; exon_number "1"; gene_name "FAKE000001"; oId "FAKE000001-RA"; nearest_ref "FAKE000001-RA"; class_code "="; tss_id "TSS1"; p_id "P1";

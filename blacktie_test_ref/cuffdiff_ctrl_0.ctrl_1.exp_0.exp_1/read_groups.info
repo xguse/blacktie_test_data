@@ -1,0 +1,5 @@
+file	condition	replicate_num	total_mass	norm_mass	internal_scale	external_scale
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_ctrl_0/accepted_hits.bam	ctrl	0	258	458	1	1.00437
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_ctrl_1/accepted_hits.bam	ctrl	1	258	458	1	1.00437
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_0/accepted_hits.bam	exp	0	277	458	1	0.995633
+/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_1/accepted_hits.bam	exp	1	277	458	1	0.995633

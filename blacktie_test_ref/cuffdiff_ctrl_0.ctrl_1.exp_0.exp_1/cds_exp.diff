@@ -1,0 +1,2 @@
+test_id	gene_id	gene	locus	sample_1	sample_2	status	value_1	value_2	log2(fold_change)	test_stat	p_value	q_value	significant
+P1	XLOC_000001	FAKE000001	fake_chrom_1:223-729	ctrl	exp	OK	1.86388e+06	2.01806e+06	0.114655	-0.918526	0.358343	0.358343	no

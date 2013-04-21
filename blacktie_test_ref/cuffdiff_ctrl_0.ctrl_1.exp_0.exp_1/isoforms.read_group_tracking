@@ -1,0 +1,5 @@
+tracking_id	condition	replicate	raw_frags	internal_scaled_frags	external_scaled_frags	FPKM	effective_length	status
+TCONS_00000001	ctrl	0	258	258	256.878	1.85875e+06	-	OK
+TCONS_00000001	ctrl	1	258	258	256.878	1.85875e+06	-	OK
+TCONS_00000001	exp	1	277	277	278.215	2.02299e+06	-	OK
+TCONS_00000001	exp	0	277	277	278.215	2.02299e+06	-	OK

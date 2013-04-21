@@ -1,0 +1,2 @@
+tracking_id	class_code	nearest_ref_id	gene_id	gene_short_name	tss_id	locus	length	coverage	FPKM	FPKM_conf_lo	FPKM_conf_hi	FPKM_status
+FAKE000001	-	-	FAKE000001	-	-	fake_chrom_1:223-729	-	-	2.02299e+06	1.77989e+06	2.26609e+06	OK

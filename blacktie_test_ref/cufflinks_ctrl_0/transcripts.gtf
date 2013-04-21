@@ -1,0 +1,2 @@
+fake_chrom_1	Cufflinks	transcript	224	729	1000	+	.	gene_id "FAKE000001"; transcript_id "FAKE000001-RA"; FPKM "1867008.7074527633"; frac "1.000000"; conf_lo "1634538.937352"; conf_hi "2099478.477554"; cov "85.975751";
+fake_chrom_1	Cufflinks	exon	224	729	1000	+	.	gene_id "FAKE000001"; transcript_id "FAKE000001-RA"; exon_number "1"; FPKM "1867008.7074527633"; frac "1.000000"; conf_lo "1634538.937352"; conf_hi "2099478.477554"; cov "85.975751";

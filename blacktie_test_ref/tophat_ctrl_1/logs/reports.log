@@ -1,0 +1,12 @@
+tophat_reports v2.0.8b (4050M)
+---------------------------------------
+[samopen] SAM header is present: 1 sequences.
+	Loading fake_chrom_1...done
+	Loading ...done
+Loaded 0 GFF junctions from /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_ctrl_1/tmp/fake_annotation.juncs.
+Loaded 0 junctions
+Reporting final accepted alignments...done.
+Printing junction BED track...done
+Printing insertions...done
+Printing deletions...done
+Found 0 junctions from happy spliced reads

@@ -1,0 +1,2 @@
+tracking_id	ctrl_count	ctrl_count_variance	ctrl_count_uncertainty_var	ctrl_count_dispersion_var	ctrl_status	exp_count	exp_count_variance	exp_count_uncertainty_var	exp_count_dispersion_var	exp_status
+TCONS_00000001	258	258	0	258	OK	277	277	0	277	OK

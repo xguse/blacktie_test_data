@@ -1,0 +1,39 @@
+
+[start tophat_exp_1]
+
+
+tophat --mate-std-dev 25 -G fake_annotation.gtf --library-type fr-unstranded -o /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_1 -p 6 -r 100 --no-coverage-search bowtie_indexes/fake_genome exp_fake_reads_left.fastq exp_fake_reads_right.fastq
+
+
+[2013-04-21 10:47:24] Beginning TopHat run (v2.0.8b)
+-----------------------------------------------
+[2013-04-21 10:47:24] Checking for Bowtie
+		  Bowtie version:	 2.1.0.0
+[2013-04-21 10:47:24] Checking for Samtools
+		Samtools version:	 0.1.12.0
+[2013-04-21 10:47:24] Checking for Bowtie index files
+[2013-04-21 10:47:24] Checking for reference FASTA file
+	Warning: Could not find FASTA file bowtie_indexes/fake_genome.fa
+[2013-04-21 10:47:24] Reconstituting reference FASTA file from Bowtie index
+  Executing: /usr/local/bin/bowtie2-inspect bowtie_indexes/fake_genome > /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_1/tmp/fake_genome.fa
+[2013-04-21 10:47:24] Generating SAM header for bowtie_indexes/fake_genome
+	format:		 fastq
+	quality scale:	 phred33 (default)
+[2013-04-21 10:47:24] Reading known junctions from GTF file
+	Warning: TopHat did not find any junctions in GTF file
+[2013-04-21 10:47:24] Preparing reads
+	 left reads: min. length=50, max. length=50, 600 kept reads (0 discarded)
+	right reads: min. length=50, max. length=50, 600 kept reads (0 discarded)
+[2013-04-21 10:47:24] Creating transcriptome data files..
+[2013-04-21 10:47:24] Building Bowtie index from fake_annotation.fa
+[2013-04-21 10:47:25] Mapping left_kept_reads to transcriptome fake_annotation with Bowtie2 
+[2013-04-21 10:47:25] Mapping right_kept_reads to transcriptome fake_annotation with Bowtie2 
+[2013-04-21 10:47:25] Resuming TopHat pipeline with unmapped reads
+[2013-04-21 10:47:25] Mapping left_kept_reads.m2g_um to genome fake_genome with Bowtie2 
+[2013-04-21 10:47:25] Mapping right_kept_reads.m2g_um to genome fake_genome with Bowtie2 
+Warning: junction database is empty!
+[2013-04-21 10:47:25] Reporting output tracks
+-----------------------------------------------
+[2013-04-21 10:47:25] Run complete: 00:00:00 elapsed
+
+[end tophat_exp_1]

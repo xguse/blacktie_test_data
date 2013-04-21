@@ -1,0 +1,69 @@
+
+[start cuffdiff_ctrl_0.ctrl_1.exp_0.exp_1]
+
+
+cuffdiff --frag-bias-correct fake_genome.fasta --labels ctrl,exp -o /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffdiff_ctrl_0.ctrl_1.exp_0.exp_1 -p 6 --upper-quartile-norm --multi-read-correct /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1/merged.gtf /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_ctrl_0/accepted_hits.bam,/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_ctrl_1/accepted_hits.bam /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_0/accepted_hits.bam,/home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/tophat_exp_1/accepted_hits.bam
+
+Warning: Your version of Cufflinks is not up-to-date. It is recommended that you upgrade to Cufflinks v2.1.1 to benefit from the most recent features and bug fixes (http://cufflinks.cbcb.umd.edu).
+[10:47:30] Loading reference annotation and sequence.
+[10:47:30] Inspecting maps and determining fragment length distributions.
+Warning: Using default Gaussian distribution due to insufficient paired-end reads in open ranges.  It is recommended that correct parameters (--frag-len-mean and --frag-len-std-dev) be provided.
+Warning: Using default Gaussian distribution due to insufficient paired-end reads in open ranges.  It is recommended that correct parameters (--frag-len-mean and --frag-len-std-dev) be provided.
+Warning: Using default Gaussian distribution due to insufficient paired-end reads in open ranges.  It is recommended that correct parameters (--frag-len-mean and --frag-len-std-dev) be provided.
+[10:47:30] Modeling fragment count overdispersion.
+Warning: Using default Gaussian distribution due to insufficient paired-end reads in open ranges.  It is recommended that correct parameters (--frag-len-mean and --frag-len-std-dev) be provided.
+[10:47:31] Modeling fragment count overdispersion.
+> Map Properties:
+>	Normalized Map Mass: 458.00
+>	Raw Map Mass: 258.00
+>	Number of Multi-Reads: 0 (with 0 total hits)
+>	Fragment Length Distribution: Truncated Gaussian (default)
+>	              Default Mean: 200
+>	           Default Std Dev: 80
+> Map Properties:
+>	Normalized Map Mass: 458.00
+>	Raw Map Mass: 258.00
+>	Number of Multi-Reads: 0 (with 0 total hits)
+>	Fragment Length Distribution: Truncated Gaussian (default)
+>	              Default Mean: 200
+>	           Default Std Dev: 80
+> Map Properties:
+>	Normalized Map Mass: 458.00
+>	Raw Map Mass: 277.00
+>	Number of Multi-Reads: 0 (with 0 total hits)
+>	Fragment Length Distribution: Truncated Gaussian (default)
+>	              Default Mean: 200
+>	           Default Std Dev: 80
+> Map Properties:
+>	Normalized Map Mass: 458.00
+>	Raw Map Mass: 277.00
+>	Number of Multi-Reads: 0 (with 0 total hits)
+>	Fragment Length Distribution: Truncated Gaussian (default)
+>	              Default Mean: 200
+>	           Default Std Dev: 80
+[10:47:32] Calculating preliminary abundance estimates
+[10:47:32] Learning bias parameters.
+[10:47:32] Testing for differential expression and regulation in locus.
+Performed 1 isoform-level transcription difference tests
+Performed 1 tss-level transcription difference tests
+Performed 1 gene-level transcription difference tests
+Performed 1 CDS-level transcription difference tests
+Performed 0 splicing tests
+Performed 0 promoter preference tests
+Performing 0 relative CDS output tests
+Writing isoform-level FPKM tracking
+Writing TSS group-level FPKM tracking
+Writing gene-level FPKM tracking
+Writing CDS-level FPKM tracking
+Writing isoform-level count tracking
+Writing TSS group-level count tracking
+Writing gene-level count tracking
+Writing CDS-level count tracking
+Writing isoform-level read group tracking
+Writing TSS group-level read group tracking
+Writing gene-level read group tracking
+Writing CDS-level read group tracking
+Writing read group info
+Writing run info
+
+[end cuffdiff_ctrl_0.ctrl_1.exp_0.exp_1]

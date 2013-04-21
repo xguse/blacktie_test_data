@@ -1,0 +1,40 @@
+
+[start cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1]
+
+
+cuffmerge -p 6 --ref-gtf fake_annotation.gtf --ref-sequence fake_genome.fasta -o /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1 /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1/assembly_list.txt
+
+
+[Sun Apr 21 10:47:27 2013] Beginning transcriptome assembly merge
+-------------------------------------------
+
+[Sun Apr 21 10:47:27 2013] Preparing output location /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1/
+[Sun Apr 21 10:47:27 2013] Converting GTF files to SAM
+[10:47:27] Loading reference annotation.
+[10:47:27] Loading reference annotation.
+[10:47:27] Loading reference annotation.
+[10:47:27] Loading reference annotation.
+[Sun Apr 21 10:47:27 2013] Quantitating transcripts
+Warning: Your version of Cufflinks is not up-to-date. It is recommended that you upgrade to Cufflinks v2.1.1 to benefit from the most recent features and bug fixes (http://cufflinks.cbcb.umd.edu).
+Command line:
+cufflinks -o /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1/ -F 0.05 -g fake_annotation.gtf -q --overhang-tolerance 200 --library-type=transfrags -A 0.0 --min-frags-per-transfrag 0 --no-5-extend -p 6 /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1/tmp/mergeSam_file9P4oY8 
+[bam_header_read] EOF marker is absent.
+[bam_header_read] invalid BAM binary header (this is not a BAM file).
+File /home/augustine/Dropbox/repos/git/blktie_test_data/blacktie_test/cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1/tmp/mergeSam_file9P4oY8 doesn't appear to be a valid BAM file, trying SAM...
+[10:47:27] Loading reference annotation.
+[10:47:27] Inspecting reads and determining fragment length distribution.
+Processed 1 loci.                           
+> Map Properties:
+>	Normalized Map Mass: 4.00
+>	Raw Map Mass: 4.00
+>	Fragment Length Distribution: Truncated Gaussian (default)
+>	              Default Mean: 200
+>	           Default Std Dev: 80
+[10:47:27] Assembling transcripts and estimating abundances.
+Processed 1 loci.                           
+[Sun Apr 21 10:47:28 2013] Comparing against reference file fake_annotation.gtf
+Warning: Your version of Cufflinks is not up-to-date. It is recommended that you upgrade to Cufflinks v2.1.1 to benefit from the most recent features and bug fixes (http://cufflinks.cbcb.umd.edu).
+[Sun Apr 21 10:47:28 2013] Comparing against reference file fake_annotation.gtf
+Warning: Your version of Cufflinks is not up-to-date. It is recommended that you upgrade to Cufflinks v2.1.1 to benefit from the most recent features and bug fixes (http://cufflinks.cbcb.umd.edu).
+
+[end cuffmerge_ctrl_0.ctrl_1.exp_0.exp_1]
